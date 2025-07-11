@@ -86,9 +86,9 @@ end
 subgraph Networks
   F(Service)
   G(Server)
-  E --> F
-	F -.Request.-> G
-	G -.Response.-> F
+  F --> E
+  F -.Request.-> G
+  G -.Response.-> F
 end
 ```
 
